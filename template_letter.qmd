@@ -1,0 +1,30 @@
+---
+address:
+  - Jean Dupont
+  - Grand-Rue 7
+  - CH-1234 
+
+author: "Pascal Burkhard"
+mytitle: "Président"
+place: "Mex"
+
+return-email: "president@aen-ne.ch"
+return-phone: "079 675 71 70"
+return-url: "https://www.aen-ne.ch"
+return-address: 
+  - "Ch. du Marais 10"
+  - "CH-1031 Mex"
+
+subject: Template
+opening: Madame, Monsieur,
+closing: Avec mes meilleures salutations,
+signature: Pascal Burkhard
+
+format:
+  aen-letter-pdf:
+    lang: fr-CH
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus turpis id neque pharetra, ut vehicula augue sagittis. Duis pellentesque dolor vel diam imperdiet lacinia. Suspendisse eu finibus nibh. Pellentesque faucibus suscipit quam, et tincidunt lacus bibendum sit amet. Proin ut est vel arcu vestibulum fringilla. Pellentesque scelerisque tortor nec purus imperdiet, vel gravida metus sagittis. 
+
+Sed ac orci vel turpis dictum fermentum in ac libero. Ut eget nibh ut lorem pellentesque pretium a a mauris. Fusce vehicula tellus vitae ornare placerat. Aenean ut justo sed est varius consequat. Duis ut lorem pellentesque sem molestie auctor hendrerit non augue. Fusce augue augue, dictum eget massa interdum, tempus convallis eros. Integer eros urna, tristique sit amet enim a, auctor vehicula velit. Cras a augue at ante egestas porttitor id ac urna. Curabitur tempor neque in eros ornare varius. Etiam sit amet orci quis orci vestibulum aliquam ut vitae purus.

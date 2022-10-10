@@ -1,0 +1,39 @@
+---
+name: Hans Muster
+address: Rue Centrale
+number: 1
+zip: 1111
+toplace: Perpette-les-Oies
+country: CH
+
+date: "2022-05-06"
+fac-num: 22050601
+
+author: "Amandine Burkhard Charbonnier"
+place: "Mex"
+
+return-email: "amandine.charbonnier@bemermail.com"
+return-phone: "079 675 71 70"
+return-url: "https://amandine.bemergroup.com"
+return-address: 
+  - "Ch. du Marais 10"
+  - "CH-1031 Mex"
+
+subject: Facture
+opening: Monsieur,
+closing: Avec mes meilleures salutations,
+signature: Amandine Burkhard Charbonnier
+
+format: bemer_invoice-pdf
+---
+
+```{=latex}
+%-------Références Bemer et quantités-------------------------------
+% BemerRef/BemerCadeau 3 paramètres : référence, quantité, num série
+% BemerRefPerso 5 paramètres : référence, description, num série, quantité, prix
+% BemerPerso 3 paramètres : description, quantité, prix
+% BemerPorto 2 paramètres : frais de port, quantité
+
+\BemerRefPerso{412300}{BEMER Horse-Set}{4123002022080784}{1}{4290}
+```
+
